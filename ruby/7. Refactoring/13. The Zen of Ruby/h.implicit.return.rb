@@ -28,12 +28,11 @@ Hint
 You just need to remove one word!
 =end
 
-def multiple_of_three(n)
-  return n % 3 == 0 ? "True" : "False"
-end
-
-def multiple_of_three(n)
-  n % 3 == 0 ? "True" : "False" # <----- removed return!
+ prime = Prime.new
+  for num in (1..n)
+    prime_array.push(prime.next)
+  end
+   prime_array
 end
 
 # Output
